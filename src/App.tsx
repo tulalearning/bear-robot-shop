@@ -1,17 +1,11 @@
-import Typography from "@mui/material/Typography";
+import NavigationComponent from "./components/NavigationComponent";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <Typography
-        variant="h3"
-        sx={{ fontFamily: "Monomaniac One" }}
-        mt={2}
-        gutterBottom
-        align="center"
-      >
-        Welcome to Bear Robot Shop
-      </Typography>
+      <NavigationComponent />
+      <Home />
     </>
   );
 }
